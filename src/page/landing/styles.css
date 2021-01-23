@@ -1,0 +1,18 @@
+body {
+    background: #9C9C9C;
+}
+.landing-page h1{
+    color: black;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Kaushan Script', cursive;
+    
+}
+.who-knows h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 3em;
+}
+.who-knows{
+    font-family: 'Roboto', sans-serif;
+}
