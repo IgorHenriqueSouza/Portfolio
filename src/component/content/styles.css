@@ -1,12 +1,34 @@
-.project a img{
+
+.project a img {
     width: 30vw;
     border-radius: 35px;
+    position: relative;
+    float: left;
+    border-width: 2px;
 }
+
+.project1 a img {
+    margin-left:18rem ;
+    margin-right: 0rem;
+}
+.project2 a img {
+    margin-left:6rem ;
+    margin-right: 0rem;
+}
+
 
 .project h2 {
     color:whitesmoke;
     text-align: left;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+}
 
+
+@media (min-width: 800px) {
+    .project a img {
+        max-width: 1000px;
+        margin-left: 7rem;
+        margin-right: 0rem;
+    }
 }
